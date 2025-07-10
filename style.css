@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  /* margin: 0; */
+}
+body {
+  /* border: 2px solid red; */
+  font-family: "Inter", sans-serif;
+  background-color: rgb(245, 248, 255);
+}
+header {
+  background-image: url("./Assets/Hero-bg.png");
+}
+/* Banner section starts here */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 100px 100px 100px;
+}
+.logo {
+  color: rgb(78, 71, 255);
+  font-size: 34px;
+  font-weight: 900;
+}
+.btn-01 {
+  border-radius: 10px;
+  border: none;
+  background: rgb(78, 71, 255);
+  padding: 12px 36px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
+.btn-02 {
+  margin-left: 590px;
+  margin-bottom: 100px;
+}
+.banner-heading {
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  text-align: center;
+}
+/* Banner section ends here */
+
+/* See It in Action section starts here */
+.banner-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  /* padding-bottom: 5px; */
+}
+.banner-description {
+  font-size: 24px;
+  font-weight: 400;
+  /* padding-bottom: 5px; */
+  color: rgba(37, 36, 50, 0.5);
+  /* border: 1px solid red; */
+}
+.btn-03 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.flex {
+  display: flex;
+}
+img {
+  border-radius: 48px;
+}
+.gap-between {
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+/* See It in Action section ends here */
