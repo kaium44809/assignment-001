@@ -128,7 +128,7 @@ span {
   color: rgb(37, 36, 50);
   font-size: 42px;
   font-weight: 700;
-  text-align: center;
+  padding-left: 370px;
   margin-top: 100px;
 }
 .color-2 {
@@ -141,5 +141,108 @@ span {
 }
 .user-say {
   gap: 40px;
+  border-radius: 14px;
+  padding: 24px;
+}
+.div-01 {
+  align-items: center;
+  gap: 20px;
+}
+.card-container {
+  padding-left: 110px;
 }
 /* What our users say section ends here  */
+
+/* Ger Started Free section starts here */
+.banner-title-02 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+}
+.banner-description-02 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.center-align {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.btn-04 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500px;
+}
+.hero-section {
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+  margin-left: 140px;
+  margin-right: 140px;
+}
+/* Ger Started Free section end here */
+
+/* Let’s Get in Touch section starts here */
+.form-container {
+  padding: 30px;
+  width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  background-color: #f9fbff;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #a3c1ff;
+}
+
+button {
+  background-color: rgb(78, 71, 255);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3c4de0;
+}
+.center-align-02 {
+  /* text-align: center; */
+  align-items: center;
+}
+.title {
+  font-size: 89px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+.pd {
+  margin-left: 145px;
+  margin-right: 135px;
+  gap: 130px;
+}
+/* Let’s Get in Touch section end here */
