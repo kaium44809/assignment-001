@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
-  /* margin: 0; */
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
 }
 body {
-  /* border: 2px solid red; */
   font-family: "Inter", sans-serif;
   background-color: rgb(245, 248, 255);
 }
@@ -83,28 +84,30 @@ img {
 /* Joined Thousands of Productive Users section starts here */
 .highlight-section {
 }
-.heighlight-div {
+.highlight-div {
   background-color: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
   margin-left: 140px;
   margin-right: 140px;
   padding: 0px 80px;
   padding-top: 30px;
+  line-height: 30px;
 }
 .review {
   gap: 60px;
   display: flex;
-  padding-left: 150px;
+  padding-left: 170px;
 }
 .description-01 {
   text-align: center;
   font-size: 38px;
   font-weight: 700;
   color: rgb(37, 36, 50);
+  /* border: 1px solid red; */
 }
 .color {
   font-size: 70px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-weight: 700;
   color: rgb(78, 71, 255);
 }
@@ -150,6 +153,21 @@ span {
 }
 .card-container {
   padding-left: 110px;
+}
+.span {
+  color: rgb(174, 174, 174);
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-title {
+  color: rgb(30, 30, 30);
+  font-size: 24px;
+  font-weight: 600;
+}
+.subtitle {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 400;
 }
 /* What our users say section ends here  */
 
@@ -238,7 +256,6 @@ button:hover {
   font-size: 89px;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  border: 1px solid red;
 }
 .pd {
   margin-left: 145px;
@@ -246,3 +263,36 @@ button:hover {
   gap: 130px;
 }
 /* Let’s Get in Touch section end here */
+
+/* Footer section starts here  */
+.footer-container {
+  line-height: 20px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 60px;
+}
+.logo-title {
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(78, 71, 255);
+  text-align: center;
+}
+.logo-description {
+  color: rgb(137, 135, 161);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.link-container {
+  gap: 48px;
+  text-align: center;
+}
+/* Footer section end here  */
+/* -----------------------------------Developed by [Md.Abdul Kaium]--------------------------------------------- */
